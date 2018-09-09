@@ -1,0 +1,43 @@
+{
+  "name": "boilerplate-react-parcel",
+  "version": "1.0.0",
+  "description": "A simple boilerplate using Parcel and ReactJs",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "parcel ./src/index.html --open",
+    "build": "parcel build ./src/index.html --out-dir dist/",
+    "deploy": "gh-pages -d dist/"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devigor/boilerplate-react-parcel.git"
+  },
+  "keywords": [
+    "react",
+    "boilerplate",
+    "parcel"
+  ],
+  "author": "Igor Oliveira <devigor.tere@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devigor/boilerplate-react-parcel/issues"
+  },
+  "homepage": "https://github.com/devigor/boilerplate-react-parcel#readme",
+
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-router-dom": "^4.3.1",
+    "styled-components": "^3.4.5"
+  },
+
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "gh-pages": "^1.2.0"
+  }
+
+}
